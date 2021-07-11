@@ -10,3 +10,5 @@ comment out many lines
 so that Javascript ignores
 the content written 
 within */
+
+var myName; 
