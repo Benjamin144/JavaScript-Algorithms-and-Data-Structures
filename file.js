@@ -21,3 +21,25 @@ var a;
 // Only change code below this line
 
 a = 7;
+console.log(a);
+
+
+// Assigning the Value of One Variable to Another
+
+var myVar;
+myVar = 5;
+var myNum;
+
+myNum = myVar;
+console.log(myVar);
+
+// Setup
+var a;
+a = 7;
+var b;
+
+b = a;
+console.log(b);
+
+
+
