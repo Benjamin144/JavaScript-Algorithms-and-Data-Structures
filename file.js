@@ -38,6 +38,12 @@ var a;
 a = 7;
 var b;
 
+// Initializing Variables with the Assignment Operator
+
+var a = 9
+console.log(a);
+
+
 b = a;
 console.log(b);
 
