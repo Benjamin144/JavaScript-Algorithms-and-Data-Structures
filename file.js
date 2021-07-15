@@ -85,3 +85,17 @@ var difference = 45 - 33;
 
 var product = 8 * 10;
 console.log(product)
+
+//Divide One Number by Another with JavaScript
+
+var quotient = 66 / 33;
+console.log(quotient)
+
+
+// Increment a Number with JavaScript
+
+var myVar = 87;
+// Only change code below this line
+myVar++;
+
+console.log(myVar)
