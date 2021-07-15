@@ -99,3 +99,11 @@ var myVar = 87;
 myVar++;
 
 console.log(myVar)
+
+// Decrement a Number with JavaScript
+
+var myVar = 11;
+// Only change code below this line
+
+myVar--;
+console.log(myVar)
