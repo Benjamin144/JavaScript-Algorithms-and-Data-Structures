@@ -107,3 +107,13 @@ var myVar = 11;
 
 myVar--;
 console.log(myVar)
+
+// Create Decimal Numbers with JavaScript
+
+var ourDecimal = 5.7;
+
+// Only change code below this line
+
+var myDecimal = 5.7;
+console.log(myDecimal)
+
