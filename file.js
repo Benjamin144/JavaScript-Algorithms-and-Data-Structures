@@ -117,3 +117,9 @@ var ourDecimal = 5.7;
 var myDecimal = 5.7;
 console.log(myDecimal)
 
+// Multiply Two Decimals with JavaScript
+
+var product = 2.0 * 2.5;
+console.log(product)
+
+
