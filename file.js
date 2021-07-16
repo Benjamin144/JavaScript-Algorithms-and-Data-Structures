@@ -128,6 +128,13 @@ var quotient = 0.0 / 2.0;
 var quotient = 4.4 / 2.0; // Change the 0.0 so that quotient will equal to 2.2.
 console.log(quotient)
 
+// Finding a Remainder in JavaScript
+
+// Only change code below this line
+
+var remainder = 11 % 3;
+console.log(remainder)
+
 
 
 
