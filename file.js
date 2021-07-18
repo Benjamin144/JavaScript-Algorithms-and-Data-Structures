@@ -194,6 +194,15 @@ c /= 11;
 
 console.log(a, b, c)
 
+// Declare String Variables
+
+var myFirstName = "Joseph";
+var myLastName  = "Roberts";
+
+console.log (myFirstName,myLastName)
+
+
+
 
 
 
