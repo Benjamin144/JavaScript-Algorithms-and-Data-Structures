@@ -169,6 +169,18 @@ b = b -= 15;
 c = c -= 1;
 console.log(a,b,c);
 
+// Compound Assignment With Augmented Multiplication
+
+var a = 5;
+var b = 12;
+var c = 4.6;
+
+// Only change code below this line
+a *= 5;
+b *= 3;
+c *= 10;
+console.log(a,b,c);
+
 
 
 
