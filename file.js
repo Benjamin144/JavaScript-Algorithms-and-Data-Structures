@@ -201,6 +201,16 @@ var myLastName  = "Roberts";
 
 console.log (myFirstName,myLastName)
 
+// Escaping Literal Quotes in Strings
+
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+
+// I am a "double quoted" string inside "double quotes".
+
+console.log(myStr)
+
+
+
 
 
 
