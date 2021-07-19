@@ -216,6 +216,29 @@ console.log(myStr)
 var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 console.log(myStr)
 
+// Escape Sequences in Strings
+
+// Code	Output
+// \'	single quote
+// \"	double quote
+// \\	backslash
+// \n	newline
+// \r	carriage return
+// \t	tab
+// \b	word boundary
+// \f	form feed 
+
+var myStr = 'FirstLine\n\t\\SecondLine\n\ThirdLine';
+console.log (myStr);
+
+//FirstLine
+    //\SecondLine
+//ThirdLine
+
+
+
+
+
 
 
 
