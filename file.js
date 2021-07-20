@@ -242,6 +242,20 @@ console.log (myStr);
 var myStr = "This is the start. " + "This is the end.";
 console.log(myStr);
 
+// Concatenating Strings with the Plus Equals Operator
+
+var ourStr = "I come first. ";
+ourStr += "I come second. ";
+
+console.log(ourStr);
+
+var myStr = "This is the first sentance. ";
+myStr += "This is the second sentance. ";
+
+console.log(myStr)
+
+
+
 
 
 
