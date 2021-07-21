@@ -266,6 +266,14 @@ var myStr = "My name is " + myName + " and I am well!";
 
 console.log(myStr);
 
+const color = () =>'#' + Math
+.floor(Math.random() * 0xffffff)
+.toString(16) 
+.padEnd(6, '0');
+
+console.log(color());
+
+
 
 
 
