@@ -80,6 +80,7 @@ console.log(sum)
 // Subtract One Number from Another with JavaScript
 
 var difference = 45 - 33;
+console.log(difference)
 
 // Multiply Two Numbers with JavaScript
 
@@ -288,12 +289,12 @@ console.log (someAdjective);
 //Set up the
 
 var lastNameLength  = 0;
-var lastName = "Lovelace";
+var lastName = "Love                                                                     lace";
 
 // Only change the code below this line
 
-lastNameLength = lastName;
-console.log("Lovelace".length);
+lastNameLength = lastName.length
+console.log(lastNameLength);
 
 
 
