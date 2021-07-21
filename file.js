@@ -266,12 +266,24 @@ var myStr = "My name is " + myName + " and I am well!";
 
 console.log(myStr);
 
+// outputs a random color 
+
 const color = () =>'#' + Math
 .floor(Math.random() * 0xffffff)
 .toString(16) 
 .padEnd(6, '0');
 
 console.log(color());
+
+// Appending Variables to Strings
+
+var someAdjective = "Funkdoobiest!";
+var myStr = "Learning to code is ";
+
+myStr += someAdjective;
+console.log (myStr);
+
+
 
 
 
