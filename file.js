@@ -327,6 +327,23 @@ var thirdLetterOfMyName =myName[2];
 
 console.log(thirdLetterOfMyName);
 
+// Use Bracket Notation to Find the Last Character in a String
+
+var firstName = "Joseph";
+var lastLetter = firstName[firstName.length - 1];
+
+// Setup
+var lastName = "Roberts";
+
+// Only change code below this line
+var lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+
+console.log(lastLetterOfLastName);
+
+
+
+
+
 
 
 
