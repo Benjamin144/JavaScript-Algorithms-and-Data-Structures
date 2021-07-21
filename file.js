@@ -281,8 +281,19 @@ var someAdjective = "Funkdoobiest!";
 var myStr = "Learning to code is ";
 
 myStr += someAdjective;
-console.log (myStr);
+console.log (someAdjective);
 
+// Find the Length of a String
+
+//Set up the
+
+var lastNameLength  = 0;
+var lastName = "Lovelace";
+
+// Only change the code below this line
+
+lastNameLength = lastName;
+console.log("Lovelace".length);
 
 
 
