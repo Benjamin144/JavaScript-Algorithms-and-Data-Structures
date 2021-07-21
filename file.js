@@ -320,6 +320,15 @@ myStr = "Hello World"; // Changed this line from myStr[0] = "H"
 // Only change code above this line
 console.log(myStr)
 
+// Use Bracket Notation to Find the Nth Character in a String
+
+var myName = "Joseph";
+var thirdLetterOfMyName =myName[2];
+
+console.log(thirdLetterOfMyName);
+
+
+
 
 
 
