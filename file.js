@@ -340,6 +340,21 @@ var lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
 
 console.log(lastLetterOfLastName);
 
+// Use Bracket Notation to Find the Nth-to-Last Character in a String
+
+// Example: 
+
+var firstName = "Augusta";
+var thirdToLastLetter = firstName[firstName.length - 3];
+
+// Setup
+var lastName = "Roberts";
+
+// Only change code below this line
+var secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
+console.log(secondToLastLetterOfLastName);
+
 
 
 
