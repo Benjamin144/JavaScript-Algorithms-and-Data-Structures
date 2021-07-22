@@ -355,6 +355,19 @@ var secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this
 
 console.log(secondToLastLetterOfLastName);
 
+// Word Blanks
+
+// Event Handler - Script Lifecycle
+
+function aFunction() {
+    console.log("This is a function");
+    return true;
+}
+
+aFunction();
+
+
+
 
 
 
