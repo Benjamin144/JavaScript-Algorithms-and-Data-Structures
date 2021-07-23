@@ -355,7 +355,10 @@ var secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this
 
 console.log(secondToLastLetterOfLastName);
 
-// Word Blanks
+var myNoun = "dog";
+var myAdjective = "big";
+var myVerb = "ran"; 
+var myAdverb = "quickly";
 
 // Event Handler - Script Lifecycle
 
@@ -365,6 +368,14 @@ function aFunction() {
 }
 
 aFunction();
+
+// Word Blanks
+
+// Only change code below this line
+var wordBlanks = "The Worlds Greatest " + [myNoun] + ", was so " + [myAdjective] + " that it " + [myVerb] + " very " + [myAdverb]; // Change this line
+
+console.log (wordBlanks)
+// Only change code above this line
 
 
 
