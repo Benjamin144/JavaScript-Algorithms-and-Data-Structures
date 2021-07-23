@@ -417,6 +417,27 @@ var myData = myArray[2][1];
 
 console.log (myData);
 
+// Manipulate Arrays With push()
+
+var arr1 = [1,2,3];
+arr1.push(4);
+
+var arr2 = ["Stimpson", "J", "cat"];
+arr2.push(["happy", "joy"]);
+
+// Push ["dog", 3] onto the end of the myArray variable.
+
+// Setup
+var myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+
+myArray.push(["dog" , 3]);
+console.log (myArray);
+
+
+
+
 
 
 
