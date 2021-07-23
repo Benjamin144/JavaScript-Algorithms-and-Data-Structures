@@ -377,6 +377,15 @@ var wordBlanks = "The Worlds Greatest " + [myNoun] + ", was so " + [myAdjective]
 console.log (wordBlanks)
 // Only change code above this line
 
+// Store Multiple Values in one Variable using JavaScript Arrays
+
+// Nest one Array within Another Array
+
+// Only change code below this line
+var myArray = [["color", 1], ["color", 2]];
+
+
+
 
 
 
