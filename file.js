@@ -391,6 +391,12 @@ myArray[0];
 var myData = myArray[0];
 console.log (myData);
 
+// Modify Array Data With Indexes
+
+var joesArray = [1,44,144000];
+joesArray[2] = [29];
+console.log(joesArray);
+
 
 
 
