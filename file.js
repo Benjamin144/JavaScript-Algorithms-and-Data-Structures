@@ -382,7 +382,15 @@ console.log (wordBlanks)
 // Nest one Array within Another Array
 
 // Only change code below this line
+
 var myArray = [["color", 1], ["color", 2]];
+
+// Access Array Data with Indexes
+var myArray = [50,60,70];
+myArray[0];
+var myData = myArray[0];
+console.log (myData);
+
 
 
 
