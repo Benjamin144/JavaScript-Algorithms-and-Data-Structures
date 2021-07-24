@@ -435,6 +435,25 @@ var myArray = [["John", 23], ["cat", 2]];
 myArray.push(["dog" , 3]);
 console.log (myArray);
 
+// Manipulate Arrays With pop()
+
+var threeArr = [1, 4, 6];
+var oneDown = threeArr.pop();
+console.log(oneDown);
+console.log(threeArr)
+
+// therefore
+
+//Setup
+
+var myArray = [["John", 23], ["cat", 2]];
+// to remove last array use .pop(3)
+var removedFromArray = myArray.pop(3);
+console.log(myArray);
+console.log(removedFromArray); 
+
+
+
 
 
 
