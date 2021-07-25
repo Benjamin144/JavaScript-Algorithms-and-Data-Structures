@@ -452,6 +452,25 @@ var removedFromArray = myArray.pop(3);
 console.log(myArray);
 console.log(removedFromArray); 
 
+// Manipulate Arrays With shift()..removes the first unlike .pop() which removes the last element.
+
+var ourArray = ["Stimpson", "J", ["cat"]];
+var removedFromOurArray = ourArray.shift(1);
+
+console.log(removedFromArray)
+console.log(ourArray)
+
+// Setup
+var myArray = [["John", 23], ["dog", 3]];
+
+// Only change code below this line
+var removedFromMyArray =  myArray.shift(0);
+console.log(removedFromMyArray);
+console.log(myArray);
+
+
+
+
 
 
 
