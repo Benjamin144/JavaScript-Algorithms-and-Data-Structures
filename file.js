@@ -490,6 +490,20 @@ myArray.shift();
 myArray.unshift(["Paul", 35]);
 console.log(myArray);
 
+// Shopping List
+
+var myList = [
+    ["Chocolate", 1], 
+    ["Apple", 2], 
+    ["Crisps", 3], 
+    ["Sandwich", 4], 
+    ["Yoghurt", 5],
+];
+
+console.log(myList);
+
+
+
 
 
 
