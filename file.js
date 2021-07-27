@@ -502,6 +502,16 @@ var myList = [
 
 console.log(myList);
 
+// Write Reusable JavaScript with Functions
+
+function reusableFunction() {
+    console.log("Hi World");
+};
+
+reusableFunction();
+reusableFunction();
+reusableFunction();
+
 
 
 
