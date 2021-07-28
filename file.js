@@ -512,6 +512,21 @@ reusableFunction();
 reusableFunction();
 reusableFunction();
 
+// Passing Values to Functions with Arguments
+
+function functionWithArgs(a, b) {
+    console.log(a + b);
+};
+functionWithArgs(2, 1);
+functionWithArgs(8, 8);
+
+// Alternativley THIS..
+
+function functionWithArgs(x, y) {
+    console.log(x + y);
+  }
+  functionWithArgs(1, 2);
+  functionWithArgs(6, 2);
 
 
 
