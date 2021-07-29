@@ -552,7 +552,28 @@ function fun2() {
 }
 
 
+// Local Scope and Functions
 
+// function myTest() {
+  // var loc = "foo";
+  // console.log(loc);
+// }
+// myTest();
+// console.log(loc);
+
+// Example 2
+
+// function myLocalScope() {
+
+  // Only change code below this line
+// var myVar
+  // console.log('inside myLocalScope', myVar);
+// }
+// myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
 
   // Global vs. Local Scope in Functions
 
@@ -598,6 +619,27 @@ var total = timesFive(5);
 
 console.log(total);
 
+// Understanding Undefined Value returned from a Function
+
+// Setup
+var sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+
+function addFive() {
+  sum = sum + 5;
+}
+
+// Only change code above this line
+
+addThree();
+addFive();
+console.log(sum);
+console.log(sum);
 
 
 
