@@ -552,28 +552,7 @@ function fun2() {
 }
 
 
-// Local Scope and Functions
 
-function myTest() {
-    var loc = "foo";
-    console.log(loc);
-  }
-  myTest();
-  console.log(loc);
-
-  // Example 2
-
-  function myLocalScope() {
-
-    // Only change code below this line
-  var myVar
-    console.log('inside myLocalScope', myVar);
-  }
-  myLocalScope();
-  
-  // Run and check the console
-  // myVar is not defined outside of myLocalScope
-  console.log('outside myLocalScope', myVar);
 
   // Global vs. Local Scope in Functions
 
@@ -598,6 +577,28 @@ var outerWear = "sweater";
 }
 
 myOutfit();
+
+// Return a Value from a Function with Return
+// We can pass values into a function with arguments. You can use a return statement to send a value back out of a function.
+
+function plusThree(num) {
+  return num + 3;
+}
+
+var answer = plusThree(5);
+
+console.log(answer);
+
+// My code
+
+function timesFive (x) {
+  return x * 3;
+}
+var total = timesFive(5);
+
+console.log(total);
+
+
 
 
 
