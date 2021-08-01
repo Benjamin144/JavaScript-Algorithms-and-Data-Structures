@@ -636,8 +636,8 @@ console.log(total);
 
 or
 
-function timesFive(jr){
-  return jr*5;
+function timesFive(jar){
+  return jar*5;
 }
 var answer = timesFive(5);
 console.log(answer);
