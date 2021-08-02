@@ -615,6 +615,24 @@ var outerWear = "sweater";
 
 myOutfit();
 
+// Awesome code
+
+var locales = {
+  europe: function() {          // The Europe continent's local scope
+    var myFriend = "Monique";
+
+    var france = function() {   // France country's local scope
+      var paris = function() {  // The Paris city's local scope
+        console.log(myFriend);  // output: Monique
+      };
+
+      paris();
+    };
+
+    france();
+  }
+};
+
 
 // Return a Value from a Function with Return
 // We can pass values into a function with arguments. You can use a return statement to send a value back out of a function.
@@ -644,9 +662,28 @@ console.log(answer);
 
 }
 
+// Awesome example
 
-Return a Value from a Function with Return Passed
-We can pass values into a function with arguments. You can use a return statement to send a value back out of a function.
+var locales = {
+  europe: function() {          // The Europe continent's local scope
+    var myFriend = "Monique";
+
+    var france = function() {   // France country's local scope
+      var paris = function() {  // The Paris city's local scope
+        console.log(myFriend);  // output: Monique
+      };
+
+      paris();
+    };
+
+    france();
+  }
+};
+
+locales.europe();
+
+// Return a Value from a Function with Return Passed
+// We can pass values into a function with arguments. You can use a return statement to send a value back out of a function.
 
 Example
 
@@ -719,6 +756,11 @@ console.log("After: " + JSON.stringify(testArr));
 
 */
 
+// Understanding Boolean Values#
+
+function welcomeToBooleans() {
+  return True = True;
+}
 
 
 
