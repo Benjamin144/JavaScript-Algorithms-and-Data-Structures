@@ -760,8 +760,6 @@ function welcomeToBooleans() {
   return True = True;
 }
 
-*/
-
 // Use Confidential Logic with If Statements
  function trueOrFalse(wasThatTrue) {
    if (wasThatTrue); {
@@ -769,6 +767,19 @@ function welcomeToBooleans() {
  }
     return "No, that was false";
 }
+
+*/
+
+// Comparison with the Equality Operator
+
+// Setup
+function testEqual(val) {
+  if (val == 12) { // change this line 
+    return "Equal";
+  }
+  return "Not Equal";
+}
+testEqual(10);
 
 
 
