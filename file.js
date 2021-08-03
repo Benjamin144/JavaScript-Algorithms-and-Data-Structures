@@ -754,12 +754,20 @@ console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 
-*/
-
 // Understanding Boolean Values#
 
 function welcomeToBooleans() {
   return True = True;
+}
+
+*/
+
+// Use Confidential Logic with If Statements
+ function trueOrFalse(wasThatTrue) {
+   if (wasThatTrue); {
+    return "Yes, that was true";
+ }
+    return "No, that was false";
 }
 
 
