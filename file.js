@@ -768,8 +768,6 @@ function welcomeToBooleans() {
     return "No, that was false";
 }
 
-*/
-
 // Comparison with the Equality Operator
 
 // Setup
@@ -781,6 +779,7 @@ function testEqual(val) {
 }
 testEqual(10);
 
+// Comparison with the Strict Operator
 
 function testStrict(val) {
   if (val === 7); {
@@ -790,6 +789,23 @@ function testStrict(val) {
 }
 
 testStrict(10);
+
+*/
+
+// Practice comparing different values
+
+// Setup
+
+function compareEquality(a, b) {
+  if (a === b) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+compareEquality(10, "10");
+
+
 
 
 
