@@ -790,8 +790,6 @@ function testStrict(val) {
 
 testStrict(10);
 
-*/
-
 // Practice comparing different values
 
 // Setup
@@ -805,7 +803,20 @@ function compareEquality(a, b) {
 
 compareEquality(10, "10");
 
+*/
 
+// Comparison with the Inequality Operator
+
+//Setup
+
+function testNotEqual(val) {
+  if (val !=99) {
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testNotEqual(10);
 
 
 
