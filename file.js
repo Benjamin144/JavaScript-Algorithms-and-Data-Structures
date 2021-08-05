@@ -863,8 +863,6 @@ function testGreaterOrEqual(val) {
 
 testGreaterOrEqual(10);
 
-*/
-
 // Comparison with the Less Than Operator
 
 function testLessThan(val) {
@@ -881,6 +879,22 @@ function testLessThan(val) {
 
 testLessThan(10);
 
+*/
+
+
+// Comparison with the Less Than Or Equal To Operator
+function testLessOrEqualTo(val) {
+  if (val <=12) {
+    return "Smaller than or equal to 12";
+}
+  if (val <=24) {
+    return "Smaller than or equal to 24";
+  }
+    return "More than 24";
+}
+
+testLessOrEqualTo(10)
+  
 
 
 
