@@ -936,8 +936,6 @@ function testElse(val) {
 
 testElse(4);
 
-*/
-
 // Introducing Else If Statement
 
 function testElseIf(val) {
@@ -972,10 +970,29 @@ function testElseIf(val) {
   } else if (val < 5) {
     return "Smaller than 5";
   } else {
-    
-  }
-
   return "Between 5 and 10";
+  }
 }
 
 testElseIf(7);
+
+*/
+
+// Logical Order in If Else Statements
+
+function orderMyLogic(val) {
+  if (val < 5) {
+    return "Less than 5"; 
+    } else if (val < 10) {
+      return "Less than 10";
+    } else {
+      return "Greater than or Equal to 10";
+    }
+
+  }
+    orderMyLogic(10);
+
+    }
+  
+
+}
