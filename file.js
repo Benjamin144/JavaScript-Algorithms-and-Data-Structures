@@ -892,25 +892,28 @@ function testLessOrEqualTo(val) {
 
 testLessOrEqualTo(10)
 
-*/
-
-// Comparisons with the Logical And Operator
+// 
 function testLogicalAndValue (val) {
   if (val <=50 && val >=25) {
       return "Yes";
   }
   return "No";
 }
-testLogicalAndValue(10)
+testLogicalAnd(10)
 
-  
+*/
 
+// Comparisons with the Logical And Operator
 
+function testLogicalValueAnd(val) {
+  if (val <=50 && val >=25) {
+      return "Yes";
+  }
+  return "No";
+}
 
-
-
-
-
+testLogicalAnd(10);
+console.log(testLogicalAnd);
 
 
 
