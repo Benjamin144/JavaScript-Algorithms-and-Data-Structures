@@ -1,6 +1,6 @@
 // this is a line of code
 
-// singular lines of code 
+// singular lines of code
 
 // good for in line commentry
 
@@ -913,54 +913,27 @@ function testLogicalValueAnd(val) {
 testLogicalAnd(10);
 console.log(testLogicalAnd);
 
-*/
-
 // Comparisons with the Logical Or Operator
 
 function testLogicalOr(val) {
-  if (val) {
-    return "Outside";
-  }
-
-  if (val) {
+  if (val <10 || val >20 ) {
     return "Outside";
   }
   return "Inside";
 }
 testLogicalOr(15);
+ 
+*/
 
+// Introducing Else Statements
 
+function testElse(val) {
+  var result = "";
+  if (val > 5) {
+    return "Bigger than 5";
+  } else {
+  }
+  return result;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+testElse(4);

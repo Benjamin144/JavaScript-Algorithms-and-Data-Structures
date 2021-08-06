@@ -23,5 +23,8 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "Visual Studio Dark",
    "editor.defaultFormatter": "HookyQR.beautify",
-   "python.pythonPath": "C:\\Users\\josep\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+   "python.pythonPath": "C:\\Users\\josep\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+   "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   }
 }
