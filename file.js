@@ -901,8 +901,6 @@ function testLogicalAndValue (val) {
 }
 testLogicalAnd(10)
 
-*/
-
 // Comparisons with the Logical And Operator
 
 function testLogicalValueAnd(val) {
@@ -914,6 +912,22 @@ function testLogicalValueAnd(val) {
 
 testLogicalAnd(10);
 console.log(testLogicalAnd);
+
+*/
+
+// Comparisons with the Logical Or Operator
+
+function testLogicalOr(val) {
+  if (val) {
+    return "Outside";
+  }
+
+  if (val) {
+    return "Outside";
+  }
+  return "Inside";
+}
+testLogicalOr(15);
 
 
 
