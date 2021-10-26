@@ -11,6 +11,8 @@ so that Javascript ignores
 the content written 
 within */
 
+// Declare JavaScript Variables
+
 /* var myName; 
 
 // -Storing Values with the Assignment Operator
