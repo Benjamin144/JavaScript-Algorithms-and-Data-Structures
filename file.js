@@ -1,3 +1,11 @@
+if (2 > 1) {
+
+  console.log("If condition is executed");
+  
+  if (1 > 0) {
+      console.log("Nested if condition is executed");
+  }
+}
 // this is a line of code
 
 // singular lines of code
