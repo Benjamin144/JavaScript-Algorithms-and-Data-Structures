@@ -1,14 +1,8 @@
-// Understanding Case Sensitivity in Variables
+const fCC = "freeCodeCamp"; // Change this line
+let fact = "is cool!"; // Change this line
+fact = "is awesome!";
+console.log(fCC, fact); // Change this line
 
-// Variable declarations
-var studlyCapVar;
-var properCamelCase;
-var titleCaseOver;
-
-// Variable assignments
-studlyCapVar = 10;
-properCamelCase = "A String";
-titleCaseOver = 9000;
 
 //Add Two Numbers with JavaScript
 
