@@ -1,14 +1,3 @@
-const fCC = "freeCodeCamp"; // Change this line
-let fact = "is cool!"; // Change this line
-fact = "is awesome!";
-console.log(fCC, fact); // Change this line
-
-
-//Add Two Numbers with JavaScript
-
-var sum = 10 + 10;
-console.log(sum)
-
 // Subtract One Number from Another with JavaScript
 
 var difference = 45 - 33;
@@ -26,11 +15,8 @@ console.log(quotient)
 
 // Increment a Number with JavaScript
 
-i++;
-is the equivalent of
-
-i = i + 1;
-Note: The entire line becomes i++;, eliminating the need for the equal sign.
+/* i++; is the equivalent of i = i + 1;
+Note: The entire line becomes i++;, eliminating the need for the equal sign. */
 
 var myVar = 87;
 // Only change code below this line
