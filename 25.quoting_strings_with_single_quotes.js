@@ -11,7 +11,7 @@ In the goodStr above, you can use both quotes safely by using the backslash \ as
 
 Note: The backslash \ should not be confused with the forward slash /. They do not do the same thing. */
 
-const myStr = '<a href=\"http://www.example.com\" target=\"_blank\">Link</a>';
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 console.log(myStr)
 
 /*Right now, the <a> tag in the string uses double quotes everywhere. 
